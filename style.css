@@ -1,67 +1,35 @@
-.mensagem-chegar {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Cor de fundo padrão */
+    background-image: url('Páscoa..jpg'); /* Adicione o caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+.mensagem {
+    text-align: center;
+    color: #fff; /* Cor do texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+.feliz {
     margin-top: 10%;
-    margin-left: 12%;
-    font-size: 26px;
-
+    font-size: 18px;
+    font-family: 'Pacifico', cursive; /* Adicione uma fonte festiva */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    line-height: 1.2; /* Altura da linha para melhor legibilidade */
 }
 
-.mensagem-aviso {
-
-    margin-top: 120px;
-    margin-left: 30%;
-    font-size: 50px;
-    color: red;
-
-}
-
-.mensagem-aviso1 {
-
-    margin-top: -50px;
-    margin-left: 10%;
-    font-size: 23px;
-
-}
-
-.mensagem-aviso2 {
-
-    margin-top: -25px;
-    margin-left: 35%;
-    font-size: 20px;
-}
-
-.mensagem-aviso3 {
-
-    margin-top: -25px;
-    margin-left: 20%;
-    font-size: 30px;
-    color: red;
-
-}
-
-.button-enviar {
-
-    margin-top: 20px;
-    margin-left: 32%;
-    
-}
-
-.button-enviar button {
-    padding: 15px 20px; /* Ajuste o valor conforme necessário */
-    font-size: 23px; /* Ajuste o tamanho da fonte conforme necessário */
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Escolha a fonte desejada */
-    border-radius: 20px; /* Ajuste o raio conforme necessário para arredondar as bordas */
-    background-color: #4CAF50; /* Cor de fundo do botão */
-    color: black; /* Cor do texto no botão */
-    border: none; /* Remove a borda padrão do botão */
-    cursor: pointer;
-}
-
-.footer {
-
-    margin-top: 90%;
-    font-size: 20px;
-    margin-left: 45px;
-
+/* Estilo adicional para o nome do usuário */
+#nomeUsuario {
+    color: #FFD700; /* Cor dourada para o nome do usuário */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 1.2em; /* Tamanho do texto do nome do usuário */
 }

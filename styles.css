@@ -1,0 +1,77 @@
+.footer {
+
+ color: black;
+ margin-top: 0%;
+ margin-left: 10%;
+
+}
+ body {
+    background-image: url('pagina2/IMGpascoa.png'); /* Adicione o caminho da sua imagem de fundo */
+ }
+
+/*Estilizando o site*/
+.titulo1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+    /*Posicionando*/
+    margin-top: -2%;
+    margin-left: 35%;
+
+    /*Color*/
+    color: blueviolet;
+}
+.titulo2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+
+    /*Posicionando*/
+    margin-top: -17%;
+    margin-left: 15%;
+
+    /*Color*/
+    color: red;
+}
+
+.imagem-ovo {
+
+    margin-top: 30%;
+    margin-left: 20%;
+
+}
+
+.mensagem-ajuda {
+
+    margin-top: 5%;
+    margin-left: 19%;
+
+    font-size: 22px;
+
+}
+
+.ano {
+
+    margin-top: 85%;
+    margin-left: 62%;
+    font-size: 70px;
+}
+
+.feliz {
+
+    margin-top: -30%;
+    margin-left: 25%;
+}
+
+.pascoa {
+
+    margin-top: -8%;
+    margin-left: 29%;
+}
+
+.mensagem-ano {
+
+    margin-top: -45%;
+
+}
